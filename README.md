@@ -41,7 +41,7 @@
 
 Étudiant en 2ème année de **BUT Informatique (Parcours Réalisation d'applications)** à l'**IUT d'Orléans**.
 
-Passionné par la conception logicielle et l'architecture web, j'allie rigueur technique (Java, Python, C, SQL, JavaScript) et gestion de projet collaborative (modélisation UML, architecture MVC, revues de code sous Git). J'ai piloté plusieurs projets universitaires en équipe de 4 personnes de l'analyse du besoin jusqu'à la livraison finale.
+Passionné par le développement logiciel et l'architecture web, je conçois des applications complètes et performantes en alliant rigueur technique (Java, Python, C, SQL, JavaScript), architecture MVC et modélisation logicielle (POO, diagrammes UML).
 
 Je suis actuellement à la recherche d'un **stage conventionné en développement logiciel / web de 8 à 10 semaines**.
 
@@ -58,9 +58,10 @@ Je suis actuellement à la recherche d'un **stage conventionné en développemen
       <p><a href="https://github.com/NedjarYanis/puissance4"><b>Consulter le code source →</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Plateforme Collaborative (SAE 3.01c)</h3>
-      <p>Plateforme web collaborative complète développée en équipe de 4 : gestion financière (dépenses communes, calcul de remboursement), calendrier partagé et répartition des tâches ménagères.</p>
-      <p><b>Stack :</b> Python, Flask, SQLAlchemy, MySQL / MariaDB, Bootstrap 5</p>
+      <h3><a href="https://github.com/NedjarYanis/atelier-kibako-flask">Atelier Kibako — E-Commerce Flask</a></h3>
+      <p>Boutique web complète avec gestion de catalogue, persistance MariaDB / SQLAlchemy 2.x, simulateur acoustique Web Audio API et panneau de configuration.</p>
+      <p><b>Stack :</b> Python 3.11+, Flask 3.x, SQLAlchemy 2.x, MariaDB / SQLite</p>
+      <p><a href="https://github.com/NedjarYanis/atelier-kibako-flask"><b>Consulter le code source →</b></a></p>
     </td>
   </tr>
   <tr>
@@ -107,7 +108,7 @@ Je suis actuellement à la recherche d'un **stage conventionné en développemen
   <summary><b>Architecture Logicielle &amp; Patrons de Conception (MVC &amp; POO)</b></summary>
   <br/>
   
-  Sur l'ensemble de mes projets (qu'il s'agisse de l'application JavaFX **Puissance 4** ou de la plateforme web **Flask**), je veille à une séparation stricte des responsabilités :
+  Sur l'ensemble de mes projets (qu'il s'agisse de l'application JavaFX **Puissance 4** ou des plateformes web **Flask**), je veille à une séparation stricte des responsabilités :
   - **Modèle** : Logique métier pure, gestion de la persistance (SQLAlchemy / JDBC) et invariants applicatifs.
   - **Vue** : Interfaces déclaratives ou graphiques (templates Jinja2, scènes JavaFX) isolées de la logique métier.
   - **Contrôleur** : Routage, validation des entrées et orchestration des interactions.
@@ -141,7 +142,7 @@ Langages           │ Java, Python, C, SQL, JavaScript, HTML5, CSS3, Bash
 Frameworks & Libs  │ Flask, JavaFX, SQLAlchemy, Bootstrap, Tailwind CSS, Pygame, JUnit
 Bases de données   │ MySQL, MariaDB, SQLite, Firebase
 Outils & Réseau    │ Git, GitHub, Docker, Maven, Linux, VS Code, Nginx, GNS3, OSPF, DHCP, ACL
-Méthodes & Gestion │ Architecture MVC, Modélisation UML (Cas d'utilisation, Séquence, Classes), Agile / Trello, Gantt
+Méthodes & Gestion │ Architecture MVC, Modélisation UML (Cas d'utilisation, Séquence, Classes), POO
 ```
 
 ---
