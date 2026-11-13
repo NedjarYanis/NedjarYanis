@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="380">
+  <defs>
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .terminal-body { fill: #0b0f19; stroke: url(#termBorder); stroke-width: 1.5; rx: 12px; }
+    .terminal-header { fill: #131b2e; rx: 12px 12px 0 0; }
+    .term-title { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 13px; font-weight: 600; }
+    .term-font { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13px; }
+    .prompt-user { fill: #38bdf8; font-weight: 700; }
+    .prompt-path { fill: #818cf8; font-weight: 700; }
+    .command { fill: #34d399; font-weight: 700; }
+    .output-text { fill: #e2e8f0; }
+    .json-key { fill: #f472b6; }
+    .json-str { fill: #fbbf24; }
+    .json-bracket { fill: #60a5fa; }
+    .json-meta { fill: #94a3b8; font-style: italic; }
+    .success-icon { fill: #34d399; font-weight: bold; }
+
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor-block { animation: blinkCursor 0.9s infinite; fill: #38bdf8; }
+
+    @keyframes seqLine1 { 0%, 5% { opacity: 0; } 8%, 100% { opacity: 1; } }
+    @keyframes seqLine2 { 0%, 15% { opacity: 0; } 18%, 100% { opacity: 1; } }
+    @keyframes seqLine3 { 0%, 28% { opacity: 0; } 32%, 100% { opacity: 1; } }
+    @keyframes seqLine4 { 0%, 42% { opacity: 0; } 46%, 100% { opacity: 1; } }
+    @keyframes seqLine5 { 0%, 56% { opacity: 0; } 60%, 100% { opacity: 1; } }
+    @keyframes seqLine6 { 0%, 70% { opacity: 0; } 74%, 100% { opacity: 1; } }
+
+    .anim-1 { animation: seqLine1 10s infinite; }
+    .anim-2 { animation: seqLine2 10s infinite; }
+    .anim-3 { animation: seqLine3 10s infinite; }
+    .anim-4 { animation: seqLine4 10s infinite; }
+    .anim-5 { animation: seqLine5 10s infinite; }
+    .anim-6 { animation: seqLine6 10s infinite; }
+  </style>
+
+  <!-- Shell Frame -->
+  <rect x="2" y="2" width="846" height="376" class="terminal-body" />
+  <rect x="2" y="2" width="846" height="36" class="terminal-header" />
+
+  <!-- Window Dots -->
+  <circle cx="22" cy="20" r="6" fill="#ef4444" />
+  <circle cx="42" cy="20" r="6" fill="#f59e0b" />
+  <circle cx="62" cy="20" r="6" fill="#10b981" />
+
+  <!-- Title -->
+  <text x="425" y="24" text-anchor="middle" class="term-title">yanis@orleans: ~/portfolio (zsh)</text>
+
+  <!-- Interactive Content -->
+  <g transform="translate(26, 68)" class="term-font">
+    <!-- Command 1 -->
+    <g class="anim-1">
+      <text x="0" y="0"><tspan class="prompt-user">yanis@orleans</tspan>:<tspan class="prompt-path">~</tspan>$ <tspan class="command">whoami</tspan></text>
+      <text x="0" y="22" class="output-text">Yanis Nedjar — Étudiant en 2ème année de BUT Informatique @ IUT d'Orléans</text>
+    </g>
+
+    <!-- Command 2 -->
+    <g class="anim-2" transform="translate(0, 52)">
+      <text x="0" y="0"><tspan class="prompt-user">yanis@orleans</tspan>:<tspan class="prompt-path">~</tspan>$ <tspan class="command">cat status.json</tspan></text>
+    </g>
+
+    <g class="anim-3" transform="translate(0, 74)">
+      <text x="0" y="0" class="json-bracket">{</text>
+      <text x="18" y="20"><tspan class="json-key">"statut"</tspan>: <tspan class="json-str">"En recherche active de stage (8 à 10 semaines)"</tspan>,</text>
+      <text x="18" y="40"><tspan class="json-key">"formation"</tspan>: <tspan class="json-str">"BUT Informatique — Parcours Réalisation d'applications"</tspan>,</text>
+      <text x="18" y="60"><tspan class="json-key">"localisation"</tspan>: <tspan class="json-str">"Orléans / Saran (45) &amp; Mobilité"</tspan>,</text>
+      <text x="18" y="80"><tspan class="json-key">"specialites"</tspan>: <tspan class="json-bracket">[</tspan><tspan class="json-str">"Java"</tspan>, <tspan class="json-str">"Python"</tspan>, <tspan class="json-str">"TypeScript"</tspan>, <tspan class="json-str">"React"</tspan>, <tspan class="json-str">"Flask"</tspan>, <tspan class="json-str">"SQL"</tspan><tspan class="json-bracket">]</tspan>,</text>
+      <text x="18" y="100"><tspan class="json-key">"methodes"</tspan>: <tspan class="json-str">"Modélisation UML, Architecture MVC, POO, Revues Git"</tspan></text>
+      <text x="0" y="120" class="json-bracket">}</text>
+    </g>
+
+    <!-- Command 3 -->
+    <g class="anim-4" transform="translate(0, 222)">
+      <text x="0" y="0"><tspan class="prompt-user">yanis@orleans</tspan>:<tspan class="prompt-path">~</tspan>$ <tspan class="command">git status</tspan></text>
+      <text x="0" y="22" class="output-text"><tspan class="success-icon">✔</tspan> On branch main: Production ready &amp; ready to contribute!</text>
+    </g>
+
+    <!-- Prompt with blinking cursor -->
+    <g class="anim-5" transform="translate(0, 274)">
+      <text x="0" y="0"><tspan class="prompt-user">yanis@orleans</tspan>:<tspan class="prompt-path">~</tspan>$ </text>
+      <rect x="135" y="-12" width="9" height="16" class="cursor-block" />
+    </g>
+  </g>
+</svg>
