@@ -1,0 +1,48 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #7aa2f7; }
+    .stat-label { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c0caf5; }
+    .stat-value { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #7dcfff; }
+    .rank-circle { stroke: #7aa2f7; stroke-width: 4; fill: none; }
+    .rank-text { font: 700 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #bb9af7; }
+  </style>
+
+  <rect width="495" height="195" rx="10" fill="#1a1b26" stroke="#24283b" stroke-width="1"/>
+
+  <text x="30" y="38" class="header">Statistiques GitHub</text>
+
+  <!-- Total Commits -->
+  <g transform="translate(30, 60)">
+    <circle cx="10" cy="10" r="5" fill="#7aa2f7"/>
+    <text x="25" y="14" class="stat-label">Total des Commits :</text>
+    <text x="240" y="14" class="stat-value">354</text>
+  </g>
+
+  <!-- Public Repos -->
+  <g transform="translate(30, 92)">
+    <circle cx="10" cy="10" r="5" fill="#7dcfff"/>
+    <text x="25" y="14" class="stat-label">Dépôts Publics :</text>
+    <text x="240" y="14" class="stat-value">12</text>
+  </g>
+
+  <!-- Total Stars -->
+  <g transform="translate(30, 124)">
+    <circle cx="10" cy="10" r="5" fill="#e0af68"/>
+    <text x="25" y="14" class="stat-label">Étoiles Obtenues :</text>
+    <text x="240" y="14" class="stat-value">1</text>
+  </g>
+
+  <!-- Status -->
+  <g transform="translate(30, 156)">
+    <circle cx="10" cy="10" r="5" fill="#9ece6a"/>
+    <text x="25" y="14" class="stat-label">Activité &amp; Rigueur :</text>
+    <text x="240" y="14" class="stat-value" fill="#9ece6a">Régulière</text>
+  </g>
+
+  <!-- Rank Badge -->
+  <g transform="translate(400, 105)">
+    <circle cx="0" cy="0" r="42" class="rank-circle"/>
+    <circle cx="0" cy="0" r="35" stroke="#414868" stroke-width="2" fill="#24283b"/>
+    <text x="0" y="8" text-anchor="middle" class="rank-text">A+</text>
+  </g>
+</svg>
