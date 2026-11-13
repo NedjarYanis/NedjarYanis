@@ -10,10 +10,21 @@
   </a>
   <br/><br/>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yanis_Nedjar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yanis-nedjar-226727304)
-  [![Email](https://img.shields.io/badge/Email-yanisnedjar5%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yanisnedjar5@gmail.com)
-  [![Localisation](https://img.shields.io/badge/Localisation-Orl%C3%A9ans_%2F_Saran-108548?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Orleans)
-  [![Statut](https://img.shields.io/badge/Stage-8_%C3%A0_10_semaines-2563EB?style=for-the-badge)](#)
+  <p align="center">
+    <a href="https://linkedin.com/in/yanis-nedjar-226727304">
+      <img src="https://img.shields.io/badge/LinkedIn-Yanis_Nedjar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:yanisnedjar5@gmail.com">
+      <img src="https://img.shields.io/badge/Email-yanisnedjar5%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://www.google.com/maps/place/Orleans">
+      <img src="https://img.shields.io/badge/Localisation-Orl%C3%A9ans_%2F_Saran-108548?style=for-the-badge&logo=google-maps&logoColor=white" alt="Localisation" />
+    </a>
+    &nbsp;
+    <img src="https://img.shields.io/badge/Stage-8_%C3%A0_10_semaines-2563EB?style=for-the-badge" alt="Statut Recherche de Stage" />
+  </p>
 </div>
 
 <br/>
@@ -41,12 +52,18 @@ Je suis actuellement à la recherche d'un **stage conventionné en développemen
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/NedjarYanis/hub-hair">
+        <img src="assets/previews/hub_hair_preview.png" alt="BarberGlass Preview" width="100%" style="border-radius: 6px;" />
+      </a>
       <h3><a href="https://github.com/NedjarYanis/hub-hair">BarberGlass (Hub-Hair)</a></h3>
       <p>Application mobile de réservation pour salons de coiffure et barbiers avec interface glassmorphism, géolocalisation et authentification en temps réel.</p>
       <p><b>Stack :</b> React Native, Expo, TypeScript, Firebase Auth &amp; Firestore</p>
       <p><a href="https://nedjaryanis.github.io/hub-hair/"><b>Explorer la démo en ligne →</b></a></p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/NedjarYanis/cv-leclerc">
+        <img src="assets/previews/cv_leclerc_preview.png" alt="Portfolio 3D Preview" width="100%" style="border-radius: 6px;" />
+      </a>
       <h3><a href="https://github.com/NedjarYanis/cv-leclerc">Portfolio 3D Interactif</a></h3>
       <p>Expérience web immersive en 3D avec caméra dynamique plongeante, environnement volumétrique et animations réactives au curseur.</p>
       <p><b>Stack :</b> React 19, Three.js, React Three Fiber (R3F), Tailwind CSS, Framer Motion</p>
@@ -58,11 +75,33 @@ Je suis actuellement à la recherche d'un **stage conventionné en développemen
       <h3><a href="https://github.com/NedjarYanis/puissance4">Puissance 4 JavaFX (MVC)</a></h3>
       <p>Jeu de plateau complet en Java avec modélisation orientée objet rigoureuse, diagrammes de classes UML, arbre de scène et interface JavaFX dynamique.</p>
       <p><b>Stack :</b> Java 17+, JavaFX, CSS, POO, Architecture MVC</p>
+      <p><a href="https://github.com/NedjarYanis/puissance4"><b>Consulter le code source →</b></a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/NedjarYanis/mon-generateur-qr">Générateur QR Pass</a></h3>
       <p>Application web Flask couplée à un moteur d'automatisation headless Selenium et conteneurisée avec Docker pour la génération sécurisée de passes d'accès.</p>
       <p><b>Stack :</b> Python, Flask, Selenium, Docker, HTML5 / CSS3</p>
+      <p><a href="https://github.com/NedjarYanis/mon-generateur-qr"><b>Consulter le code source →</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/NedjarYanis/pixelcom">
+        <img src="assets/previews/pixelcom_preview.png" alt="PixelCom Agency Preview" width="100%" style="border-radius: 6px;" />
+      </a>
+      <h3><a href="https://github.com/NedjarYanis/pixelcom">PixelCom — Agence Digitale</a></h3>
+      <p>Site vitrine responsive pour une agence digitale spécialisée en communication web, identité visuelle et optimisation SEO.</p>
+      <p><b>Stack :</b> HTML5, CSS3 Moderne, JavaScript Vanilla, Responsive Design</p>
+      <p><a href="https://nedjaryanis.github.io/pixelcom/"><b>Consulter le site en ligne →</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/NedjarYanis/index-boulange">
+        <img src="assets/previews/index_boulange_preview.png" alt="La Bonne Baguette Preview" width="100%" style="border-radius: 6px;" />
+      </a>
+      <h3><a href="https://github.com/NedjarYanis/index-boulange">La Bonne Baguette — Artisanat</a></h3>
+      <p>Site vitrine pour une boulangerie artisanale avec catalogue de spécialités, horaires et formulaire de contact interactif.</p>
+      <p><b>Stack :</b> HTML5, CSS3, JavaScript Vanilla</p>
+      <p><a href="https://nedjaryanis.github.io/index-boulange/"><b>Consulter le site en ligne →</b></a></p>
     </td>
   </tr>
   <tr>
@@ -70,9 +109,10 @@ Je suis actuellement à la recherche d'un **stage conventionné en développemen
       <h3><a href="https://github.com/NedjarYanis/R3.04-proj01-tetris">Tetris Pygame</a></h3>
       <p>Reconception et implémentation du jeu culte Tetris avec gestion précise des collisions, boucle de rendu fluide et rotation des tétrominos.</p>
       <p><b>Stack :</b> Python, Pygame, Algorithmique</p>
+      <p><a href="https://github.com/NedjarYanis/R3.04-proj01-tetris"><b>Consulter le code source →</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Projet Couple SAE 3.01c</h3>
+      <h3>Plateforme Collaborative (SAE 3.01c)</h3>
       <p>Plateforme web collaborative complète : gestion financière (dépenses communes, calcul de remboursement), calendrier partagé et répartition des tâches ménagères.</p>
       <p><b>Stack :</b> Python, Flask, SQLAlchemy, MySQL / MariaDB, Bootstrap 5</p>
     </td>
@@ -129,6 +169,11 @@ Méthodes & Gestion │ Architecture MVC, Modélisation UML (Cas d'utilisation, 
 ### Activité & Statistiques
 
 <div align="center">
+  <a href="https://github.com/NedjarYanis">
+    <img src="https://raw.githubusercontent.com/NedjarYanis/NedjarYanis/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+  </a>
+  <br/><br/>
+
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=NedjarYanis&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" height="155" />
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=NedjarYanis&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Statistiques GitHub" height="155" />
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NedjarYanis&layout=compact&theme=tokyonight&hide_border=true" alt="Langages les plus utilisés" height="155" />
