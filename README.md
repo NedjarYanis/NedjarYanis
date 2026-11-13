@@ -156,8 +156,8 @@ Méthodes & Gestion │ Architecture MVC, Modélisation UML (Cas d'utilisation, 
   <br/><br/>
 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=NedjarYanis&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" height="155" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=NedjarYanis&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Statistiques GitHub" height="155" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NedjarYanis&layout=compact&theme=tokyonight&hide_border=true" alt="Langages les plus utilisés" height="155" />
+  <img src="assets/github-stats.svg" alt="Statistiques GitHub" height="155" />
+  <img src="assets/top-langs.svg" alt="Langages les plus utilisés" height="155" />
 </div>
 
 ---
